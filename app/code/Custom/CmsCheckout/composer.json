@@ -1,0 +1,26 @@
+{
+	"name": "custom/CmsCheckout",
+	"description": "Custom CmsCheckout module for CMS block on checkout sidebar and after shipping method section",
+	"type": "magento2-module",
+	"version": "1.1.0",
+	"authors": [
+		{
+			"name": "Custom",
+			"email": "test@gmail.com",
+			"homepage": "http://localhost/"
+		}
+	],
+	"autoload": {
+		"files": [ "registration.php" ],
+		"psr-4": {
+			"Custom\\CmsCheckout\\": ""
+		}
+	},
+	"keywords": [
+		"magento2",
+		"magento 2",
+		"custom CmsCheckout",
+		"CmsCheckout",
+		"sample data"
+	]
+}
