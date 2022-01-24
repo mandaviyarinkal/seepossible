@@ -1,0 +1,30 @@
+{
+    "name": "custom/newsletter",
+    "description": "Custom Newsletter extension for Magento2",
+    "type": "magento2-module",
+    "version": "1.1.0",
+    "authors": [
+        {
+            "name": "Custom",
+            "email": "test@gmailcom",
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Custom\\Newsletter\\": ""
+        }
+    },
+    "keywords": [
+        "magento2",
+        "magento 2",
+        "default",
+        "custom newsletter",
+        "ajax newsletter",
+        "newsletter",
+        "news letter"
+    ]
+}
+
