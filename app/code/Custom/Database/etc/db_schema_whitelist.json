@@ -1,0 +1,20 @@
+{
+    "sp_blogs": {
+        "column": {
+            "id": true,
+            "title": true,
+            "description": true,
+            "is_active": true,
+            "created_at": true,
+            "updated_at": true
+        },
+        "index": {
+            "INDEXER_TITLE": true,
+            "SP_BLOG_TITLE": true,
+            "SP_BLOGS_TITLE": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "name": "custom/database",
+    "description": "Custom Database with sample data",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Custom",
+            "email": "test@gmail.com",
+            "homepage": "http://localhost/"
+        }
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Custom\\Database\\": ""
+        }
+    },
+    "keywords": [
+        "magento2",
+        "magento 2",
+        "custom table",
+        "table",
+        "sample data"
+    ]
+}
